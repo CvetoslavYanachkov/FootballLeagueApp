@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FootballLeagueApp.Common\FootballLeagueApp.Common.csproj" />
+    <ProjectReference Include="..\FootballLeagueApp.DataAccess\FootballLeagueApp.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
